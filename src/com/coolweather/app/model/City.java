@@ -3,7 +3,7 @@ package com.coolweather.app.model;
 public class City
 	{
 		private int id;
-		private int province_id;
+		private String province_id;
 		private String city_name;
 		private String city_code;
 
@@ -27,18 +27,18 @@ public class City
 		/**
 		 * @return the province_id
 		 */
-		public int getProvince_id()
+		public String getProvince_id()
 			{
 				return province_id;
 			}
 
 		/**
-		 * @param province_id
+		 * @param provinceCode
 		 *            the province_id to set
 		 */
-		public void setProvince_id(int province_id)
+		public void setProvince_id(String provinceCode)
 			{
-				this.province_id = province_id;
+				this.province_id = provinceCode;
 			}
 
 		/**
