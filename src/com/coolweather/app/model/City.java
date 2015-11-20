@@ -6,7 +6,7 @@ public class City
 		private String province_id;
 		private String city_name;
 		private String city_code;
-
+		private String city_url;
 		/**
 		 * @return the id
 		 */
@@ -73,6 +73,16 @@ public class City
 		public void setCity_code(String city_code)
 			{
 				this.city_code = city_code;
+			}
+
+		public String getCity_url()
+			{
+					return city_url;
+			}
+
+		public void setCity_url(String city_url)
+			{
+					this.city_url = city_url;
 			}
 
 	}

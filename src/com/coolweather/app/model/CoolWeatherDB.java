@@ -32,6 +32,7 @@ public class CoolWeatherDB
 		private static final String PROVINCE_CODE = "province_code";
 		private static final String CITY_NAME = "city_name";
 		private static final String CITY_CODE = "city_code";
+		private static final String CITY_URL = "city_url";
 		private static final String PROVINCE_ID = "province_id";
 		private static final String COUNTY_NAME = "county_name";
 		private static final String COUNTY_CODE = "county_code";
@@ -95,6 +96,7 @@ public class CoolWeatherDB
 						ContentValues values = new ContentValues();
 						values.put(CITY_NAME, city.getCity_name());
 						values.put(CITY_CODE, city.getCity_code());
+						values.put(CITY_URL, city.getCity_url());
 						values.put(PROVINCE_ID, city.getProvince_id());
 						database.insert(TB_CITY, null, values);
 					}
