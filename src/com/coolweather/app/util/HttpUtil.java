@@ -37,7 +37,7 @@ public class HttpUtil
 											}
 										if (listener != null)
 											{
-												// 回掉onFinish()方法
+												// 回调onFinish()方法
 												listener.onFinish(response.toString());
 											}
 
